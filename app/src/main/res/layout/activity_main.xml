@@ -22,13 +22,13 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="248dp"
+        android:layout_height="174dp"
         android:layout_marginTop="156dp"
-        android:text="Random Quote Will Appear Here"
+        android:text=""
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,46 +36,44 @@
         android:id="@+id/button"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="440dp"
         android:text="MOTIVATIONAL QUOTES"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="BUSINESS QUOTES"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="560dp"
+        android:text="GAMING QUOTES"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="196dp"
-        android:text="LIFESTYLE QUOTES"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="500dp"
+        android:text="BUSINESS QUOTES"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="250dp"
         android:layout_height="50dp"
+        android:layout_marginTop="620dp"
         android:text="FAVORITE QUOTES"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
