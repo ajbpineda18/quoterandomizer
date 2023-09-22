@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Quoterandomizer"
         tools:targetApi="31">
         <activity
+            android:name=".FavoriteSave"
+            android:exported="true"/>
+        <activity
             android:name=".RandomQuote"
             android:exported="true" />
         <activity
