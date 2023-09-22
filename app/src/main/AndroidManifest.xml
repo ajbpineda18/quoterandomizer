@@ -13,8 +13,8 @@
         android:theme="@style/Theme.Quoterandomizer"
         tools:targetApi="31">
         <activity
-            android:name=".motivational_quote"
-            android:exported="false" />
+            android:name=".RandomQuote"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
